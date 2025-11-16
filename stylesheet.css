@@ -18,10 +18,11 @@ a {
 }
 
 .top-wrapper {
-  padding: 180px 0 100px 0;
-  background-image: url(ラーメン.png);
-  background-size: cover;
-  text-align: center;
+ 
+}
+
+.top-wrapper img {
+  width: 100%;
 }
 
 .top-wrapper h1 {
@@ -30,14 +31,14 @@ a {
   letter-spacing: 5px;
 }
 
+.shop-image-wrapper {
 
-
-.btn-wrapper {
-  text-align: center;
 }
 
-.btn-wrapper p {
-  margin-bottom: 20px;
+.shop-image-wrapper ul {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
 }
 
 
@@ -84,14 +85,23 @@ img {
 }
 
 .heading  {
-  padding-top: 80px;
+  padding-top: 30x;
   padding-bottom: 50px;
   color: #5f5d60;
   text-align: center;
 }
 
+.heading h1 {
+  font-size: 65px;
+}
+
 .heading p {
-  border:solid 3px #5f5d60
+  width: 50%;
+  margin: 0 auto;
+  border:solid 3px #5f5d60;
+  font-size: 40px;
+  padding: 40px 20px;
+  box-sizing: border-box;
 }
 
 .menu  {
@@ -121,4 +131,8 @@ footer {
     color:  rgba(48, 46, 37, 0.9);
   }
 
+.footer-item {
+  display: flex;
+  align-items: center;
 
+}
