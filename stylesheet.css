@@ -93,8 +93,16 @@ img {
   border:solid 3px #5f5d60
 }
 
+.menu  {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+  text-align: center;
+}
 
-
+.menu-item {
+  float: right;
+}
 
 footer {
   padding-top: 30px;
