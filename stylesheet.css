@@ -4,7 +4,7 @@
 
 body {
   margin: 0;
-  font-family: "Hiragino Kaku Gothic ProN";
+  font-family:"MS Mincho","ＭＳ 明朝";
 }
 
 a {
@@ -21,7 +21,6 @@ a {
   padding: 180px 0 100px 0;
   background-image: url(ラーメン.png);
   background-size: cover;
-  color: white;
   text-align: center;
 }
 
@@ -51,12 +50,14 @@ header {
   position :fixed;
   top: 0;
   z-index: 10;
+  color:  rgba(48, 46, 37, 0.9);
 }
 
 
 .header-left {
   float: left;
-  color: white;
+  color:  rgba(48, 46, 37, 0.9);
+  font-size: 20px;
 }
 
 .header-right {
@@ -67,7 +68,7 @@ header {
 .header-right a {
   line-height: 65px;
   padding: 0 25px;
-  color: white;
+  color:   rgba(48, 46, 37, 0.9);
   display: block;
   float: left;
   transition: all 0.5s;
@@ -117,6 +118,7 @@ footer {
     width: 100%;
     background-color: rgba(179, 180, 156, 0.9);
     text-align: center;
+    color:  rgba(48, 46, 37, 0.9);
   }
 
 
