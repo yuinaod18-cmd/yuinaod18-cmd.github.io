@@ -113,7 +113,10 @@ footer {
 
 
   footer {
+    height: 120px;
+    width: 100%;
+    background-color: rgba(179, 180, 156, 0.9);
     text-align: center;
   }
-}
+
 
