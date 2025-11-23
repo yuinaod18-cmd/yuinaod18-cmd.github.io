@@ -217,27 +217,22 @@ textarea {
 }
 
 footer {
-  padding-top: 30px;
+  padding-top: 10px;
   padding-bottom: 20px;
-  float: left;
-}
-
-
-
-  footer {
-    height: 120px;
-    width: 100%;
-    background-color: rgba(179, 180, 156, 0.9);
-    font-size: 20px;
-    text-align: center;
-    color:  rgba(48, 46, 37, 0.9);
+  height: 150px;
+  width: 100%;
+  background-color: rgba(179, 180, 156, 0.9);
+  color:  rgba(48, 46, 37, 0.9);
   }
 
-.footer-item {
-  display: flex;
-  
-  text-align:center;
+.footer {
   display: flex;
   justify-content: center;
-
+  gap: 250px;
 }
+
+.footer h3{
+  border-bottom: 2px solid rgba(48, 46, 37, 0.9);
+  font-size: 25px;
+}
+
