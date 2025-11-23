@@ -111,30 +111,33 @@ img {
 }
 
 .menu h1{
-  font-size: 40px;
-}
-
-.menu img {
-
-  float: left;
-}
-
-.menu h3{
-  padding: 0px 150px;
-  font-size: 25px;
-  float: right;
-}
-
-.menu p{
-  font-size: 20px;
-  float: right;
+  font-size: 55px;
+  margin-bottom: 60px;
 }
 
 .menu-item {
   display: flex;
 }
 
+.menu-item img {
+  margin: 30px 20px 30px 200px;
+  width: 30%;
+  height: 30%;
+  float: left;
+}
 
+.menu h3{
+  padding: 0px 150px;
+  font-size: 35px;
+}
+
+.menu p{
+  font-size: 25px;
+}
+
+.menu-right{
+  margin: 30px 200px 30px 20px;
+}
 
 .store-image  {
   padding-top: 80px;
@@ -156,17 +159,26 @@ img {
   gap: 500px;
 }
 
+.store-info-left {
+  margin: 0px 0px 0px 170px ;
+}
+
+.store-info-right {
+  margin: 0px 170px 0px 0px ;
+}
+
+
 
 .store-image h1{
   font-size: 50px;
 }
 
-.store-info h3{
+.store-info h3 {
   font-size: 40px;
 }
 
-.store-info p{
-  font-size: 30px;
+.store-info p {
+  font-size: 22px;
 }
 
 .contact {
@@ -177,12 +189,31 @@ img {
 
 }
 
+.contact h1 {
+  font-size: 55px;
+}
+
 .contact-item {
   display: flex;
-  justify-content: center;
+
   gap: 100px;
   font-size: 25px;
   color: #5f5d60;
+}
+
+.contact-item p {
+  margin: 20px 300px;
+  float: left;
+}
+
+input {
+  margin: 20px 150px;
+  text-align: right;
+}
+
+textarea {
+  margin: 20px 20px;
+  text-align: right;
 }
 
 footer {
@@ -204,6 +235,9 @@ footer {
 
 .footer-item {
   display: flex;
-  align-items: center;
+  
+  text-align:center;
+  display: flex;
+  justify-content: center;
 
 }
