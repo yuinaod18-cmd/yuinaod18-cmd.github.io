@@ -195,15 +195,25 @@ img {
 
 .contact-item {
   display: flex;
-
-  gap: 100px;
-  font-size: 25px;
-  color: #5f5d60;
+  align-items: center;
+  margin-bottom: 20px;
+  justify-content: center;
 }
 
-.contact-item p {
-  margin: 20px 300px;
-  float: left;
+.contact-item label {
+  width: 150px;     /* ラベルの幅を固定して揃える */
+  font-size: 18px;
+  text-align: right; /* 左側をきれいに揃える */
+  margin-right: 20px; /* input との距離 */
+}
+
+.contact-item input,
+.contact-item textarea {
+  align-items: flex-start;
+}
+
+.contact-item.textarea label {
+  padding-top: 8px; /* テキストエリアの位置に合わせるための微調整 */
 }
 
 input {
